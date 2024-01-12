@@ -1,0 +1,80 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap');
+
+body {
+    margin: 0 auto;
+}
+
+main {
+    width: 70vw;
+    margin: auto;
+}
+/* Basic Stuff */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-right: 75px;
+    padding-left: 75px;
+}
+
+li {
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+h1 {
+    margin-bottom: 35px;
+    font-size: 3em;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+h2 {
+    font-family: 'Rubik Maps', system-ui;
+}
+
+p {
+    font-size: larger;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+img {
+    width: 100%;
+}
+
+/*Classes*/
+.topbar {
+    height: 30vh;
+    background-color: lightblue;
+}
+
+.maininfo {
+    width: 100vw;
+    text-align: center;
+}
+
+.cards {
+    text-align: center;
+    width: 60%;
+}
+
+.imagecard, .paragraphcard {
+    width: 40%
+}
+
+.more-cards {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.more-cards:nth-child(even) {
+    flex-direction: row-reverse;
+}
